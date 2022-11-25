@@ -1,0 +1,32 @@
+//DIFFERENCE BETWEEN WINDOW & SCREEN & DOCUMENT in JAVASCRIPT:
+
+$$ WINDOW;
+
+*the window object is nothing but , each browser has separate window.its a global object.
+
+   window on=bject contains;
+   1.navigation bar,
+   2.history,
+   3.search bar,
+   4.;location (URL);
+
+$$ DOCUMENT;
+
+*the window object has own document object. but document object differ in window object.
+ because document object has HTML dom model.
+
+ EXAMPLE;
+     <body>
+     <p>
+     this space enter in given data
+     </p>
+     </body>
+     
+
+ $$ SCREEN;
+
+ *every window has screen object .its nothing but its a physical display.
+
+ 1.screen properties width and height are the full screen
+
+ 2.screen properties availWidth and availHeight omit the toolbar
